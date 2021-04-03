@@ -4,6 +4,7 @@
     Author: Sean Ngu
     Website: http://www.seantheme.com/color-admin-v4.3/admin/
     */
+   
     var handleDataTableResponsive = function() {
         "use strict";
         if ($("#data-table-responsive").length !== 0) {

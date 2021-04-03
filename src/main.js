@@ -1,6 +1,6 @@
 // import LoadScript from 'vue-plugin-load-script';
 import { createApp } from 'vue'
-import LoadScript from "vue-plugin-load-script";
+// import LoadScript from "vue-plugin-load-script";
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -11,14 +11,14 @@ import store from './store'
 // import { createApp } from "vue";
 // import LoadScript from "vue-plugin-load-script";
 
-const app = createApp(App);
-app.use(store);
-app.use(router);
-app.use(LoadScript);
+// const app = createApp(App);
+// app.use(store);
+// app.use(router);
+// app.use(LoadScript);
 
-app.mount("#app");
+// app.mount("#app");
 
-// const app = createApp(App).use(store).use(router).use(LoadScript).mount('#app')
+const app = createApp(App).use(store).use(router).mount('#app')
 
 // createApp(App).use(LoadScript)
 // Vue.loadScript("../assets/plugins/jquery/jquery-3.3.1.min.js")

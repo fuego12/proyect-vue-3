@@ -6,12 +6,53 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <link href="./assets/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="./assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/plugins/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="./assets/plugins/animate/animate.min.css" rel="stylesheet" />
+    <link href="./assets/css/default/style.min.css" rel="stylesheet" />
+    <link href="./assets/css/default/style-responsive.min.css" rel="stylesheet" />
+    <link href="./assets/css/default/theme/default.css" rel="stylesheet" id="theme" />
+    <link href="./assets/plugins/DataTables/media/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/plugins/DataTables/extensions/Responsive/css/responsive.bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/bootstrap-icons.css" rel="stylesheet" />
+    <script src="./assets/plugins/pace/pace.min.js"></script>
   </head>
   <body>
-    <noscript>
+    <!-- <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
+    </noscript> -->
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <script type="text/javascript" src="./assets/plugins/jquery/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="./assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="./assets/plugins/js-cookie/js.cookie.js"></script>
+    <script type="text/javascript" src="./assets/js/theme/default.min.js"></script>
+    <script type="text/javascript" src="./assets/js/apps.min.js"></script>
+    <script src="./assets/plugins/flot/jquery.flot.min.js"></script>
+    <script src="./assets/plugins/flot/jquery.flot.time.min.js"></script>
+    <script src="./assets/plugins/flot/jquery.flot.resize.min.js"></script>
+    <script src="./assets/plugins/flot/jquery.flot.pie.min.js"></script>
+    <script src="./assets/plugins/sparkline/jquery.sparkline.js"></script>
+    <script src="./assets/plugins/jquery-jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="./assets/plugins/jquery-jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="./assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="./assets/js/demo/dashboard.min.js"></script>
+
+    <script type="text/javascript" src="./assets/plugins/DataTables/media/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="./assets/plugins/DataTables/media/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/plugins/DataTables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="./assets/js/demo/table-manage-responsive.demo.min.js"></script>
+    <script src="./assets/js/man_user/AppDatatable.js"></script>
+
+    <script>
+       $(document).ready(function() {
+        App.init();
+        TableManageResponsive.init();
+	    });
+    </script>
+
   </body>
 </html>

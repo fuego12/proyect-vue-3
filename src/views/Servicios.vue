@@ -13,8 +13,6 @@
 </template>
 
 <script>
-  // import Buttons from '@/assets/css/template/main.css'
-  
   export default{
   }
 </script>
